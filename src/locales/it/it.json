@@ -24,8 +24,8 @@
   },
   "ContactComponent": {
     "title": "Contattami",
-    "name": "nome",
-    "email": "email",
+    "name": "Nome",
+    "email": "Email",
     "message": "Il tuo messaggio",
     "messagePlaceholder": "Fammi sapere come posso aiutarti!",
     "sendMessage": "Invia messaggio",

@@ -14,6 +14,7 @@
     "greeting": "Hello, I'm",
     "name": "Alessandro",
     "description": "Software Engineer based in Italy, specializing in Frontend Development.",
+    "mySkills": "My Skills",
     "workExperience": "Work Experience",
     "workExperienceDescription": "I've worked with all sorts of companies, leveling up my skills and teaming up with smart people. Here's the rundown:"
   },
@@ -24,8 +25,8 @@
   },
   "ContactComponent": {
     "title": "Get in Touch",
-    "name": "name",
-    "email": "email",
+    "name": "Name",
+    "email": "Email",
     "message": "Your Message",
     "messagePlaceholder": "Let me know how i can help you!",
     "sendMessage": "Send Message",

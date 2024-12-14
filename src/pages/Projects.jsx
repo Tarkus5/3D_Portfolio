@@ -2,18 +2,16 @@ import { projects } from '../constants'
 import {Link} from "react-router-dom";
 import {arrow} from "../assets/icons";
 import CTA from "../components/CTA.jsx";
+import {useTranslation} from "react-i18next";
 
 const Projects = () => {
+    const { t, i18n } = useTranslation("global")
+
     return (
         <section className='max-container'>
-            <h1 className='head-text'>My <span className='blue-gradient_text font-semibold drop-shadow'>Projects</span></h1>
+            <h1 className='head-text'>{ t("ProjectsComponent.my") } <span className='blue-gradient_text font-semibold drop-shadow'>{ t("ProjectsComponent.projects") }</span></h1>
             <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-                <p>I've embarked on numerous projects throughout the years, but these are
-                    the ones I hold closest to my heart. Many of them are open-source, so if
-                    you come across something that piques your interest, feel free to
-                    explore the codebase and contribute your ideas for further enhancements.
-                    Your collaboration is highly valued!
-                </p>
+                <p>{ t("ProjectsComponent.description") }</p>
             </div>
             <div className='flex flex-wrap my-20 gap-16'>
                 {projects.map(project => (

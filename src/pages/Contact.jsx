@@ -5,8 +5,10 @@ import {Fox} from "../models/Fox.jsx";
 import Loader from "../components/Loader.jsx";
 import useAlert from "../hooks/UseAlert.js";
 import Alert from "../components/Alert.jsx";
+import {useTranslation} from "react-i18next";
 
 const Contact = () => {
+    const { t, i18n } = useTranslation("global")
     const formRef = useRef(null)
     const [form, setForm] = useState({ name: '', email: '', message: '' });
     const [isLoading, setIsLoading] = useState(false);
@@ -37,7 +39,7 @@ const Contact = () => {
             import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
         ).then(() => {
             setIsLoading(false);
-            showAlert({ show: true, text: 'Message sent successfully!', type: 'success' });
+            showAlert({ show: true, text: `${ t("Alert.messageSent") }`, type: 'success' });
             setTimeout(() => {
                 hideAlert()
                 setCurrentAnimation('idle');
@@ -45,7 +47,7 @@ const Contact = () => {
             }, [3000])
         }).catch((err) => {
             setIsLoading(false);
-            showAlert({ show: true, text: 'Something went wrong...', type: 'danger' });
+            showAlert({ show: true, text: `${ t("Alert.messageErrore") }`, type: 'danger' });
             setCurrentAnimation('idle');
             console.log(err)
         })
@@ -59,13 +61,13 @@ const Contact = () => {
         <section className='relative flex lg:flex-row flex-col max-container h-[100vh]'>
             { alert.show && <Alert {...alert} /> }
             <div className='flex-1 min-w-[50%] flex flex-col'>
-                <h1 className='head-text'>Get in Touch</h1>
+                <h1 className='head-text'>{ t("ContactComponent.title") }</h1>
                 <form
                     className='w-full flex flex-col gap-7 mt-14'
                     onSubmit={handleSubmit}
                 >
                     <label className='text-black-500 font-semibold'>
-                        Name
+                        { t("ContactComponent.name") }
                         <input
                             type='text'
                             name='name'
@@ -79,7 +81,7 @@ const Contact = () => {
                         />
                     </label>
                     <label className='text-black-500 font-semibold'>
-                        Email
+                        { t("ContactComponent.email") }
                         <input
                             type='email'
                             name='email'
@@ -93,12 +95,12 @@ const Contact = () => {
                         />
                     </label>
                     <label className='text-black-500 font-semibold'>
-                        Your Message
+                        { t("ContactComponent.message") }
                         <textarea
                             name='message'
                             rows={4}
                             className='textarea'
-                            placeholder='Let me know how i can help you!'
+                            placeholder={ t("ContactComponent.messagePlaceholder") }
                             required
                             value={form.message}
                             onChange={handleChange}
@@ -113,7 +115,7 @@ const Contact = () => {
                         onFocus={handleFocus}
                         onBlur={handleBlur}
                     >
-                        {isLoading ? 'Sending...' : 'Send Message'}
+                        {isLoading ? `${t("ContactComponent.sendingMessage")}` : `${t("ContactComponent.sendMessage")}`}
                     </button>
                 </form>
             </div>

@@ -3,16 +3,19 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { skills, experiences } from '../constants'
 import CTA from "../components/CTA.jsx";
+import {useTranslation} from "react-i18next";
 
 const About = () => {
+    const { t, i18n } = useTranslation("global")
+
     return (
         <section className='max-container'>
-            <h1 className='head-text'>Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Alessandro</span></h1>
+            <h1 className='head-text'>{ t("AboutComponent.greeting") } <span className='blue-gradient_text font-semibold drop-shadow'>{ t("AboutComponent.name") }</span></h1>
             <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-                <p>Software Engineer based in Italy, specializing in Frontend Development.</p>
+                <p>{ t("AboutComponent.description") }</p>
             </div>
             <div className='py-10 flex flex-col'>
-                <h3 className='subhead-text'>My Skills</h3>
+                <h3 className='subhead-text'>{ t("AboutComponent.mySkills") }</h3>
                 <div className='mt-16 flex flex-wrap gap-12'>
                     {skills.map((skill) => (
                         <div className='block-container w-20 h-20'>
@@ -25,9 +28,9 @@ const About = () => {
                 </div>
             </div>
             <div className='py-16'>
-                <h3 className='subhead-text'>Work Experience</h3>
+                <h3 className='subhead-text'>{ t("AboutComponent.workExperience") }</h3>
                 <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-                    <p>I've worked with all sorts of companies, leveling up my skills and teaming up with smart people. Here's the rundown:</p>
+                    <p>{ t("AboutComponent.workExperienceDescription") }</p>
                 </div>
             </div>
             <div className='mt-12 flex'>
