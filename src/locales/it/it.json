@@ -1,0 +1,49 @@
+{
+  "HomeInfoComponent": {
+    "greeting": "Ciao, sono",
+    "name": "Alessandro",
+    "description": "Un Software Engineer dall'Italia",
+    "about": "Ho lavorato con molte aziende e acquisito molte competenze lungo il percorso",
+    "aboutCTA": "Scopri di più",
+    "projects": "Ho guidato diversi progetti verso il successo negli anni. Curioso dell'impatto?",
+    "projectsCTA": "Visita il mio portfolio",
+    "contact": "Hai bisogno di realizzare un progetto o cerchi uno sviluppatore? Sono a pochi clic di distanza",
+    "contactCTA": "Parliamone"
+  },
+  "AboutComponent": {
+    "greeting": "Ciao, sono",
+    "name": "Alessandro",
+    "description": "Software Engineer con sede in Italia, specializzato nello sviluppo Frontend.",
+    "workExperience": "Esperienza lavorativa",
+    "workExperienceDescription": "Ho lavorato con diversi tipi di aziende, migliorando le mie competenze e collaborando con persone brillanti. Ecco un riepilogo:"
+  },
+  "ProjectsComponent": {
+    "my": "I miei",
+    "projects": "Progetti",
+    "description": "Nel corso degli anni ho intrapreso numerosi progetti, ma questi sono quelli a cui tengo di più. Molti di essi sono open-source, quindi se trovi qualcosa che ti interessa, sentiti libero di esplorare il codice e contribuire con le tue idee per ulteriori miglioramenti. La tua collaborazione è molto apprezzata!"
+  },
+  "ContactComponent": {
+    "title": "Contattami",
+    "name": "nome",
+    "email": "email",
+    "message": "Il tuo messaggio",
+    "messagePlaceholder": "Fammi sapere come posso aiutarti!",
+    "sendMessage": "Invia messaggio",
+    "sendingMessage": "Invio in corso..."
+  },
+  "CTA": {
+    "question": "Hai un progetto in mente?",
+    "message": "Costruiamo qualcosa insieme!",
+    "button": "Contattami"
+  },
+  "Navbar": {
+    "about": "Chi sono",
+    "projects": "Progetti"
+  },
+  "Alert": {
+    "messageSent": "Messaggio inviato con successo!",
+    "messageError": "Qualcosa è andato storto...",
+    "success": "Successo",
+    "failed": "Fallito"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "HomeInfoComponent": {
+    "greeting": "Hi, I am",
+    "name": "Alessandro",
+    "description": "A Software Engineer from Italy",
+    "about": "Worked with many companies and picked up many skills along the way",
+    "aboutCTA": "Learn more",
+    "projects": "Led multiple project to success over the years. Curious about the impact?",
+    "projectsCTA": "Visit my portfolio",
+    "contact": "Needed a project done or looking for a dev? I'm just a few keystrokes away",
+    "contactCTA": "Let's talk"
+  },
+  "AboutComponent": {
+    "greeting": "Hello, I'm",
+    "name": "Alessandro",
+    "description": "Software Engineer based in Italy, specializing in Frontend Development.",
+    "workExperience": "Work Experience",
+    "workExperienceDescription": "I've worked with all sorts of companies, leveling up my skills and teaming up with smart people. Here's the rundown:"
+  },
+  "ProjectsComponent": {
+    "my": "My",
+    "projects": "Projects",
+    "description": "I've embarked on numerous projects throughout the years, but these are the ones I hold closest to my heart. Many of them are open-source, so if you come across something that piques your interest, feel free to explore the codebase and contribute your ideas for further enhancements. Your collaboration is highly valued!"
+  },
+  "ContactComponent": {
+    "title": "Get in Touch",
+    "name": "name",
+    "email": "email",
+    "message": "Your Message",
+    "messagePlaceholder": "Let me know how i can help you!",
+    "sendMessage": "Send Message",
+    "sendingMessage": "Sending..."
+  },
+  "CTA": {
+    "question": "Have a project in mind?",
+    "message": "Let's build something together!",
+    "button": "Contact"
+  },
+  "Navbar": {
+    "about": "About",
+    "projects": "Projects"
+  },
+  "Alert": {
+    "messageSent": "Message sent successfully!",
+    "messageError": "Something went wrong...",
+    "success": "Success",
+    "failed": "Failed"
+  }
+}
