@@ -13,10 +13,10 @@
   "AboutComponent": {
     "greeting": "Hello, I'm",
     "name": "Alessandro",
-    "description": "Software Engineer based in Italy, specializing in Frontend Development.",
+    "description": "Software Engineer based in Italy, with a strong focus on Frontend Development and a passion for creating intuitive and high-performance user interfaces.",
     "mySkills": "My Skills",
     "workExperience": "Work Experience",
-    "workExperienceDescription": "I've worked with all sorts of companies, leveling up my skills and teaming up with smart people. Here's the rundown:"
+    "workExperienceDescription": "My professional experiences have allowed me to refine my technical skills and grow as a developer, collaborating with skilled teams and tackling challenging projects. Here's a summary of my most significant experiences:"
   },
   "ProjectsComponent": {
     "my": "My",
@@ -46,5 +46,19 @@
     "messageError": "Something went wrong...",
     "success": "Success",
     "failed": "Failed"
+  },
+  "experiences": {
+    "orbyta": {
+      "date": "Jul 2023 - Today",
+      "point1": "Deepened knowledge of Angular, integrating concepts such as Redux, microfrontends, and npm package creation, while working on an application managing sensors and systems for major transportation companies in Italy.",
+      "point2": "Studied and applied new frameworks like Node.js, Express, and NestJS.",
+      "point3": "Gained experience with Docker and Kubernetes."
+    },
+    "weplus": {
+      "date": "Jan 2023 - Jul 2023",
+      "point1": "Studied HTML, CSS, and JavaScript, applying these skills by creating a showcase website.",
+      "point2": "Learned the basics of Angular and practiced by developing two custom applications: a recipe book and a builder for electric guitars, allowing users to choose components and guitar types.",
+      "point3": "Gained experience in teamwork, using version control tools, and meeting deadlines."
+    }
   }
 }

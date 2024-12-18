@@ -13,9 +13,9 @@
   "AboutComponent": {
     "greeting": "Ciao, sono",
     "name": "Alessandro",
-    "description": "Software Engineer con sede in Italia, specializzato nello sviluppo Frontend.",
+    "description": "Software Engineer con sede in Italia, con un forte focus sullo sviluppo Frontend e una passione per la creazione di interfacce utente intuitive e ad alte prestazioni.",
     "workExperience": "Esperienza lavorativa",
-    "workExperienceDescription": "Ho lavorato con diversi tipi di aziende, migliorando le mie competenze e collaborando con persone brillanti. Ecco un riepilogo:"
+    "workExperienceDescription": "Le mie esperienze lavorative mi hanno permesso di affinare le competenze tecniche e di crescere professionalmente, collaborando con team qualificati e affrontando progetti stimolanti. Ecco un riepilogo delle esperienze più significative:"
   },
   "ProjectsComponent": {
     "my": "I miei",
@@ -45,5 +45,19 @@
     "messageError": "Qualcosa è andato storto...",
     "success": "Successo",
     "failed": "Fallito"
+  },
+  "experiences": {
+    "orbyta": {
+      "date": "Lug 2023 - Oggi",
+      "point1": "Approfondita la conoscenza di Angular, integrando concetti come Redux, microfrontends e creazione di pacchetti npm, lavorando su un applicativo che gestisce sensori e impianti per le principali aziende di trasporto in Italia.",
+      "point2": "Studio e applicazione di nuovi framework come Node.js, Express e NestJS.",
+      "point3": "Acquisita esperienza con Docker e Kubernetes."
+    },
+    "weplus": {
+      "date": "Gen 2023 - Lug 2023",
+      "point1": "Studiato HTML, CSS e JavaScript, applicando queste conoscenze creando un sito web vetrina.",
+      "point2": "Apprese le basi di Angular e messe in pratica sviluppando due applicazioni custom: un ricettario e un builder per chitarre elettriche, in cui era possibile scegliere le componenti e la tipologia di chitarra.",
+      "point3": "Acquisita esperienza nel lavoro in team, nell'uso di strumenti di version control e nel rispetto delle scadenze."
+    }
   }
 }
