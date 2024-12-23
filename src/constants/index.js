@@ -1,7 +1,7 @@
 import { orbyta, weplus } from "../assets/images";
 import {
   angular,
-  car,
+  adminDashboard,
   contact,
   css,
   docker,
@@ -14,13 +14,13 @@ import {
   linkedin,
   nest,
   nodejs,
-  pricewise,
+  xora,
   react,
   redux,
   sass,
   sql,
   tailwindcss,
-  threads,
+  gymExercise,
   typescript,
 } from "../assets/icons";
 
@@ -159,27 +159,24 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: xora,
     theme: "btn-back-red",
     name: "Xora - Saas Landing Page",
-    description:
-      "ProjectsComponent.projectsDescription.Xora",
+    description: "ProjectsComponent.projectsDescription.Xora",
     link: "https://sass-landing-page-sage.vercel.app/",
   },
   {
-    iconUrl: threads,
+    iconUrl: gymExercise,
     theme: "btn-back-green",
     name: "Gym Exercise App",
-    description:
-      "ProjectsComponent.projectsDescription.GymExercises",
+    description: "ProjectsComponent.projectsDescription.GymExercises",
     link: "https://gymexercises-lake.vercel.app/",
   },
   {
-    iconUrl: car,
+    iconUrl: adminDashboard,
     theme: "btn-back-blue",
     name: "Admin Dashboard",
-    description:
-      "ProjectsComponent.projectsDescription.AdminDashboard",
+    description: "ProjectsComponent.projectsDescription.AdminDashboard",
     link: "https://admindashboard-tarkus5s-projects.vercel.app",
-  }
+  },
 ];
