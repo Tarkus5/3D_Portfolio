@@ -20,7 +20,13 @@
   "ProjectsComponent": {
     "my": "I miei",
     "projects": "Progetti",
-    "description": "Nel corso degli anni ho intrapreso numerosi progetti, ma questi sono quelli a cui tengo di più. Molti di essi sono open-source, quindi se trovi qualcosa che ti interessa, sentiti libero di esplorare il codice e contribuire con le tue idee per ulteriori miglioramenti. La tua collaborazione è molto apprezzata!"
+    "description": "Nel corso della mia carriera da sviluppatore, ho creato diversi progetti che riflettono la mia passione per la programmazione e l'innovazione. Ogni progetto rappresenta una sfida unica che mi ha permesso di crescere professionalmente e sperimentare nuove tecnologie.",
+    "link": "Vai al progetto",
+    "projectsDescription": {
+      "Xora": "Una moderna landing page che presenta Xora AI Video Editor, evidenziando le sue funzionalità chiave, i piani tariffari e le capacità di editing video automatizzato basato su AI.",
+      "GymExercises": "Un'app fitness completa che aiuta gli utenti a scoprire esercizi con descrizioni dettagliate, muscoli target, video dimostrativi e allenamenti correlati per un'esperienza di training completa.",
+      "AdminDashboard": "Un pannello amministrativo ricco di funzionalità con autenticazione, dashboard analitica, sistema di gestione aziendale e una bacheca Kanban integrata per la gestione dei progetti."
+    }
   },
   "ContactComponent": {
     "title": "Contattami",

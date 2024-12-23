@@ -21,7 +21,13 @@
   "ProjectsComponent": {
     "my": "My",
     "projects": "Projects",
-    "description": "I've embarked on numerous projects throughout the years, but these are the ones I hold closest to my heart. Many of them are open-source, so if you come across something that piques your interest, feel free to explore the codebase and contribute your ideas for further enhancements. Your collaboration is highly valued!"
+    "description": "Throughout my career as a developer, I have created various projects that reflect my passion for programming and innovation. Each project represents a unique challenge that has allowed me to grow professionally and experiment with new technologies.",
+    "link": "Go to the project",
+    "projectsDescription": {
+      "Xora": "A modern landing page showcasing Xora AI Video Editor, featuring its key features, pricing plans, and automated video editing capabilities powered by AI.",
+      "GymExercises": "A comprehensive fitness app that helps users discover exercises with detailed descriptions, target muscles, demonstration videos, and related workouts for a complete training experience.",
+      "AdminDashboard": "A feature-rich admin panel with authentication, analytics dashboard, company management system, and an integrated Kanban board for project management."
+    }
   },
   "ContactComponent": {
     "title": "Get in Touch",
