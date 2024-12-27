@@ -26,7 +26,8 @@
     "projectsDescription": {
       "Xora": "A modern landing page showcasing Xora AI Video Editor, featuring its key features, pricing plans, and automated video editing capabilities powered by AI.",
       "GymExercises": "A comprehensive fitness app that helps users discover exercises with detailed descriptions, target muscles, demonstration videos, and related workouts for a complete training experience.",
-      "AdminDashboard": "A feature-rich admin panel with authentication, analytics dashboard, company management system, and an integrated Kanban board for project management."
+      "AdminDashboard": "A feature-rich admin panel with authentication, analytics dashboard, company management system, and an integrated Kanban board for project management.",
+      "ZentryAwwwards": "Innovative React website with GSAP animations, crafted to deliver a groundbreaking gaming experience that's immersive, dynamic, and visually stunning."
     }
   },
   "ContactComponent": {

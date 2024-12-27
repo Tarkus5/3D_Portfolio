@@ -21,7 +21,7 @@ import {
   sql,
   tailwindcss,
   gymExercise,
-  typescript,
+  typescript, zentryAwwwards,
 } from "../assets/icons";
 
 export const skills = [
@@ -178,5 +178,12 @@ export const projects = [
     name: "Admin Dashboard",
     description: "ProjectsComponent.projectsDescription.AdminDashboard",
     link: "https://admindashboard-tarkus5s-projects.vercel.app",
+  },
+  {
+    iconUrl: zentryAwwwards,
+    theme: "btn-back-yellow",
+    name: "Zentry - Awwwards",
+    description: "ProjectsComponent.projectsDescription.ZentryAwwwards",
+    link: "https://awwwards-tau.vercel.app/",
   },
 ];

@@ -23,6 +23,7 @@ import nest from "./nestjs.svg";
 import docker from "./docker.svg";
 import k8s from "./kubernetes.svg";
 import sql from "./sql.svg";
+import zentryAwwwards from "./zentryAwwwards.svg";
 
 export {
   angular,
@@ -50,4 +51,5 @@ export {
   docker,
   k8s,
   sql,
+  zentryAwwwards
 };
