@@ -51,5 +51,5 @@ export {
   docker,
   k8s,
   sql,
-  zentryAwwwards
+  zentryAwwwards,
 };

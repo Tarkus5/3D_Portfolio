@@ -21,7 +21,8 @@ import {
   sql,
   tailwindcss,
   gymExercise,
-  typescript, zentryAwwwards,
+  typescript,
+  zentryAwwwards,
 } from "../assets/icons";
 
 export const skills = [
