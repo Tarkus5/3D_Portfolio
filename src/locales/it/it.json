@@ -26,7 +26,8 @@
       "Xora": "Una moderna landing page che presenta Xora AI Video Editor, evidenziando le sue funzionalità chiave, i piani tariffari e le capacità di editing video automatizzato basato su AI.",
       "GymExercises": "Un'app fitness completa che aiuta gli utenti a scoprire esercizi con descrizioni dettagliate, muscoli target, video dimostrativi e allenamenti correlati per un'esperienza di training completa.",
       "AdminDashboard": "Un pannello amministrativo ricco di funzionalità con autenticazione, dashboard analitica, sistema di gestione aziendale e una bacheca Kanban integrata per la gestione dei progetti.",
-      "ZentryAwwwards": "Sito innovativo in React con animazioni GSAP, progettato per offrire un'esperienza di gaming rivoluzionaria, immersiva, dinamica e visivamente sorprendente."
+      "ZentryAwwwards": "Sito innovativo in React con animazioni GSAP, progettato per offrire un'esperienza di gaming rivoluzionaria, immersiva, dinamica e visivamente sorprendente.",
+      "Apple": "Mockup del sito di presentazione dell'iPhone 15 Pro. Realizzato con React, TailwindCSS, GSAP e Three.js. Integrato anche il supporto con Sentry per il monitoraggio di errori e performance."
     }
   },
   "ContactComponent": {

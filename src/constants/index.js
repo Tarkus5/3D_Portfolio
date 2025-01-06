@@ -23,6 +23,7 @@ import {
   gymExercise,
   typescript,
   zentryAwwwards,
+  apple,
 } from "../assets/icons";
 
 export const skills = [
@@ -160,18 +161,25 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: apple,
+    theme: "btn-back-black",
+    name: "iPhone 15 Pro Mockup",
+    description: "ProjectsComponent.projectsDescription.Apple",
+    link: "https://iphone-15-pi.vercel.app/",
+  },
+  {
+    iconUrl: zentryAwwwards,
+    theme: "btn-back-yellow",
+    name: "Zentry - Awwwards",
+    description: "ProjectsComponent.projectsDescription.ZentryAwwwards",
+    link: "https://awwwards-tau.vercel.app/",
+  },
+  {
     iconUrl: xora,
     theme: "btn-back-red",
     name: "Xora - Saas Landing Page",
     description: "ProjectsComponent.projectsDescription.Xora",
     link: "https://sass-landing-page-sage.vercel.app/",
-  },
-  {
-    iconUrl: gymExercise,
-    theme: "btn-back-green",
-    name: "Gym Exercise App",
-    description: "ProjectsComponent.projectsDescription.GymExercises",
-    link: "https://gymexercises-lake.vercel.app/",
   },
   {
     iconUrl: adminDashboard,
@@ -181,10 +189,10 @@ export const projects = [
     link: "https://admindashboard-tarkus5s-projects.vercel.app",
   },
   {
-    iconUrl: zentryAwwwards,
-    theme: "btn-back-yellow",
-    name: "Zentry - Awwwards",
-    description: "ProjectsComponent.projectsDescription.ZentryAwwwards",
-    link: "https://awwwards-tau.vercel.app/",
+    iconUrl: gymExercise,
+    theme: "btn-back-green",
+    name: "Gym Exercise App",
+    description: "ProjectsComponent.projectsDescription.GymExercises",
+    link: "https://gymexercises-lake.vercel.app/",
   },
 ];

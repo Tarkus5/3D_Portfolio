@@ -24,6 +24,7 @@ import docker from "./docker.svg";
 import k8s from "./kubernetes.svg";
 import sql from "./sql.svg";
 import zentryAwwwards from "./zentryAwwwards.svg";
+import apple from "./apple.svg";
 
 export {
   angular,
@@ -52,4 +53,5 @@ export {
   k8s,
   sql,
   zentryAwwwards,
+  apple,
 };
